@@ -33,7 +33,7 @@ public class EjemploArrays {
 		
 		
 		//Llamada al método
-		int [][] retorno= miMetodo(edades,pesos)
+		int [][] retorno= miMetodo(edades,pesos);
 		
 		
 		
