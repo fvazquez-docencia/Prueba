@@ -11,8 +11,8 @@ public class EjemploArrays {
 		int [] [] matriz;
 		
 		//Diferentes formas de instanciar los arrays
-		//Se crean con el tamaño definido y con el
-		//valor 'neutro' para el tipo (0 para los numéricos, 
+		//Se crean con el tamaÃ±o definido y con el
+		//valor 'neutro' para el tipo (0 para los numÃ©ricos, 
 		//'' para los char,"" para los string,...)
 		edades= new short[10];
 		pesos= new int[100];
@@ -32,13 +32,13 @@ public class EjemploArrays {
 		};
 		
 		
-		//Llamada al método
-		int [][] retorno= miMetodo(edades,pesos);
+		//Llamada al mÃ©todo
+		int [][] retorno= miMetodo(edades,pesos)
 		
 		
 		
 		
-		int longitud= edades.length;//Es 10. Es igual al tamaño del array
+		int longitud= edades.length;//Es 10. Es igual al tamaÃ±o del array
 		
 		
 		longitud = matriz.length; //4
@@ -66,16 +66,16 @@ public class EjemploArrays {
 		String[] alumnos= {"Luis","Rodrigo","Miguel"};
 		Arrays.sort(alumnos);
 		int posicion=Arrays.binarySearch( alumnos, "Luis");
-		System.out.println("Encontrado en la posición " + posicion);
+		System.out.println("Encontrado en la posiciÃ³n " + posicion);
 		posicion=Arrays.binarySearch(alumnos, "Miguel");
-		System.out.println("Encontrado en la posición " + posicion);
+		System.out.println("Encontrado en la posiciÃ³n " + posicion);
 		
 		
 	}// main
 
-	// declaración del método
+	// declaraciÃ³n del mÃ©todo
 	public static int[][] miMetodo(short[] array1, int[] array2) {
-		/// ….
+		/// â€¦.
 		int arrayRetorno[][] = new int[4][2];
 		///
 		return arrayRetorno;
