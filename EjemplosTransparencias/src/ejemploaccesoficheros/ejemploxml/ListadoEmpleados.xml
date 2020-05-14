@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<empleados>
+<empleado>
+<nombre>Francisco</nombre>
+<apellidos>Nuñez Santamaría</apellidos>
+<direccion>
+<direccion>Monasterio de Caaveiro</direccion>
+<numero>15</numero>
+</direccion>
+</empleado>
+<empleado>
+<nombre>Ramón</nombre>
+<apellidos>Sanchez Vila</apellidos>
+<direccion>
+<direccion>Avenida de Compostela</direccion>
+<numero>27</numero>
+</direccion>
+</empleado>
+<empleado>
+<nombre>María</nombre>
+<apellidos>Gomez Blanco</apellidos>
+</empleado>
+</empleados>
+
+

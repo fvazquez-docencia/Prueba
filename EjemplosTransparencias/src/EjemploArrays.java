@@ -71,6 +71,15 @@ public class EjemploArrays {
 		System.out.println("Encontrado en la posición " + posicion);
 		
 		
+		String cadena1="Hola mundo";
+		System.out.println(cadena1);
+		
+		char arrayCaracteres[]= {'H','o','l','a',' ','M','u','n','d','o'};
+		String cadena2= new String(arrayCaracteres);
+		System.out.println(cadena2);
+		
+		
+		
 	}// main
 
 	// declaración del método
