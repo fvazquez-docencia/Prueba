@@ -26,6 +26,14 @@ public class BBDDConnection {
 		}
 		return conexion;
 	}// obtenerConexion
+	
+	public static void cerrarConexion() throws SQLException
+	{
+		if(conexion!=null) {
+			conexion.close();
+			conexion=null;
+		}
+	}
 
 	public static ArrayList<Persona> obtenerListadoPersonas() {
 		ArrayList<Persona> lista = new ArrayList<>();
