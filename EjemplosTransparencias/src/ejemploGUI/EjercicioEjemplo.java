@@ -13,17 +13,15 @@ public class EjercicioEjemplo {
 			public void run() {
 				try {
 					
-					EditorPersona frame = new EditorPersona();
-					
-					ControladorPersona cp= new ControladorPersona(frame);
-					
-					
+					EditorPersona formulario = new EditorPersona();		
+					ControladorPersona controlador= new ControladorPersona(formulario);									
 					
 				} catch (Exception e) {
 					e.printStackTrace();
 				}
 			}
 		});
-	}
+	}//main
+}//EjercicioEjemplo
 
-}
+

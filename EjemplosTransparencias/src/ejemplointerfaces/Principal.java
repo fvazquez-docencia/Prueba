@@ -16,6 +16,8 @@ public class Principal {
 		System.out.println("Velocidad="+ t.getVelocidad());
 		t.imprimirUbicacionGeografica();
 		t.resumirMetodosTren();
+		
+
 	}//main
 }//Principal
 

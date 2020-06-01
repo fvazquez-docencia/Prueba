@@ -22,6 +22,7 @@ import java.awt.event.MouseEvent;
 
 public class EditorPersona extends JFrame {
 
+	//Definición de los componentes
 	private JPanel contentPane;
 	public JTextField txtNombreDelEmpleado;
 	public JTextField txtApellidosDelEmpleado;
@@ -107,6 +108,7 @@ public class EditorPersona extends JFrame {
 		pnFormulario.add(btnAnterior);
 	}
 
+	//Escuchadores
 	public void addbtNuevoClickActionListener(ActionListener listener) {
 		btnNuevo.addActionListener(listener);
 	}
@@ -127,6 +129,7 @@ public class EditorPersona extends JFrame {
 		btnEliminar.addActionListener(listener);
 	}
 
+	//Método de actualización de datos del Modelo
 	public void actualizarDatos(String id, String nombre, String apellidos) {
 		txtId.setText(id);
 		txtNombreDelEmpleado.setText(nombre);
